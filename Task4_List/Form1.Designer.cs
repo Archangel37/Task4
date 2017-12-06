@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button_Evaluate = new System.Windows.Forms.Button();
-            this.richTextBox_out = new System.Windows.Forms.RichTextBox();
+            this.richTextBox_output = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // button_Evaluate
@@ -42,20 +42,20 @@
             this.button_Evaluate.UseVisualStyleBackColor = true;
             this.button_Evaluate.Click += new System.EventHandler(this.button_Evaluate_Click);
             // 
-            // richTextBox_out
+            // richTextBox_output
             // 
-            this.richTextBox_out.Location = new System.Drawing.Point(13, 129);
-            this.richTextBox_out.Name = "richTextBox_out";
-            this.richTextBox_out.Size = new System.Drawing.Size(745, 400);
-            this.richTextBox_out.TabIndex = 1;
-            this.richTextBox_out.Text = "";
+            this.richTextBox_output.Location = new System.Drawing.Point(29, 102);
+            this.richTextBox_output.Name = "richTextBox_output";
+            this.richTextBox_output.Size = new System.Drawing.Size(685, 399);
+            this.richTextBox_output.TabIndex = 1;
+            this.richTextBox_output.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(770, 541);
-            this.Controls.Add(this.richTextBox_out);
+            this.Controls.Add(this.richTextBox_output);
             this.Controls.Add(this.button_Evaluate);
             this.Name = "Form1";
             this.Text = "TrackableList";
@@ -66,7 +66,8 @@
         #endregion
 
         private System.Windows.Forms.Button button_Evaluate;
-        private System.Windows.Forms.RichTextBox richTextBox_out;
+        //private static System.Windows.Forms.RichTextBox richTextBox_out;
+        private System.Windows.Forms.RichTextBox richTextBox_output;
     }
 }
 
